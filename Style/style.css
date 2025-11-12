@@ -1,4 +1,4 @@
-/* Basic Configurations */
+/* Start of Basic Configurations */
 *,
 *::after,
 *::before{
@@ -49,7 +49,7 @@ html{
 
 }
 
-
+/* End of Basic Configurations */
 
 
 
@@ -135,7 +135,7 @@ html{
 
 
 .header-r-m {
-  width: 35%;
+  width: 37%;
   text-align: right;
   line-height: 1.1;
 }
@@ -200,6 +200,8 @@ html{
     border: #ECEDEE solid 1px;
     border-radius: var(--v-12px);
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -218,6 +220,8 @@ html{
     border: #ECEDEE solid 1px;
     border-radius: var(--v-12px);
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -238,7 +242,7 @@ html{
 
 
 .header-l-l{
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -262,7 +266,7 @@ html{
 
 .header-l-l .header-l-l-r h2{
     color: oklch(0.21 0.034 264.665);
-    font-size: var(--fz-14);
+    font-size: var(--fz-10);
     font-weight: var(--fw--600);
 }
 
@@ -278,7 +282,7 @@ html{
 
 
 .header-l-l .header-l-l-l{
-    width: 30%;
+    width: 45%;
   background-color: transparent;
   display: flex;
   justify-content: center;
@@ -679,7 +683,7 @@ background-color: skyblue; }
 
 .header-r-m h1 {
   font-weight: var(--fw--700);
-  font-size: var(--fz-18);
+  font-size: var(--fz-35);
   margin: 5px;
   color: oklch(0.21 0.034 264.665)
 ;
@@ -690,7 +694,7 @@ background-color: skyblue; }
 
 .header-r-m p {
   font-weight: var(--fw--600);
-  font-size: var(--fz-14);
+  font-size: var(--fz-18);
   margin: 0;
   color: oklch(0.446 0.03 256.802);
 }
@@ -1775,6 +1779,7 @@ background-color: skyblue; }
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     column-gap: var(--v-10px);
     margin-bottom: var(--v-25px);
 }
@@ -1859,7 +1864,7 @@ background-color: skyblue; }
 
 
 .aside-c2-c .aside-c2-c-photo{
-    width: 12%;
+    width: 15%;
     display: flex;
     align-items: center;
 }
@@ -1896,7 +1901,7 @@ background-color: skyblue; }
 }
 
 .aside-c3-c .aside-c3-c-photo{
-    width: 17%;
+    width: 20%;
     display: flex;
     align-items: center;
     background-color: #EAF3FF;
@@ -1943,7 +1948,26 @@ background-color: skyblue; }
 }
 
 @media (min-width:1280px) {
-    
+    .aside-c2-c .aside-c2-c-photo{
+    width: 12%;
+    display: flex;
+    align-items: center;
+}
+
+
+.aside-c3-c .aside-c3-c-photo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #EAF3FF;
+    padding: 8px;
+    border-radius: var(--v-10px);
+}
+
+
+
+
+
 }
 
 @media (min-width:1582px) {
